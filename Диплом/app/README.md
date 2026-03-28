@@ -152,11 +152,14 @@ python evaluate_metrics.py
 
 ### Типы ошибок:
 
-* retrieval_error
-* nli_error
-* paraphrase_or_lexical_gap (Semantic gap)
+- retrieval_error  
+- nli_error  
+- semantic_gap (paraphrase / lexical mismatch)  
+- dataset_noise  
 
-⚠️ Классификация является эвристической и используется для последующего ручного анализа.
+⚠️ Обратите внимание: автоматическая классификация ошибок (в коде) не выделяет dataset_noise,
+так как данный тип ошибок требует ручного анализа и связан с особенностями разметки датасета.
+В рамках экспериментов значение данного типа ошибок оказалось пренебрежимо малым.
 
 
 
