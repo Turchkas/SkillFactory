@@ -154,7 +154,7 @@ python evaluate_metrics.py
 
 * retrieval_error
 * nli_error
-* paraphrase_or_lexical_gap
+* paraphrase_or_lexical_gap (Semantic gap)
 
 ⚠️ Классификация является эвристической и используется для последующего ручного анализа.
 
